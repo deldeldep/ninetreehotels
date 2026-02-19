@@ -15,7 +15,7 @@ const Header = () => {
 
   const menuItems = [
     { title: 'OUR HOTEL', sub: ['Membership', 'Introduction', 'Brand', 'Location', 'Transportation'] },
-    { title: 'ACCOMMODATION', sub: ['Standard', 'Deluxe', 'Suite'] },
+    { title: 'ACCOMMODATION', sub: ['Standard Double', 'Standard Twin', 'Deluxe Double','Family Twin','Family Kids','Standard Triple','Family Twin Suite','Family Kids Suite','Panoramic Suite','Quad Suite'] },
     { title: 'OUR FACILITIES', sub: ['Lounge', 'Meeting Room', 'Gym'] },
     { title: 'OUR OFFERS', sub: ['Packages', 'Promotions'] },
     { title: 'OUR SERVICES', sub: ['Service Guide', 'FAQ'] },
@@ -26,17 +26,17 @@ const Header = () => {
     <header className={`header ${isHovered ? 'hover' : ''}`} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       {/* PC 전용 TOP BAR */}
       <div className="top-bar">
-        <div className="inner">
-          <ul className="contact">
+        <ul className="contact">
             <li><img src="/images/icon-email.png" alt="email" /> reservation3@ninetreehotel.com</li>
-            <li><img src="/images/icon-phon.png" alt="" /> +82-2-6917-3099</li>
+            <li><img src="/images/icon-phon.png" alt="phon" /> +82-2-6917-3099</li>
+            <li><a href="#">TV Channel Link Guide</a></li>
+            <li><a><img src="/images/membership.png" alt="membership" /> 회원가입</a></li>
           </ul>
           <div className="util">
             <FaFacebookF /> <FaInstagram />
             <span>Korean</span>
             <span><FaDownload /> SERVICE DIRECTORY</span>
           </div>
-        </div>
       </div>
 
       <nav className="nav-container">
@@ -50,7 +50,7 @@ const Header = () => {
             {menuItems.map((menu, i) => (
               <li key={i} className="gnb-item">
                 <Link to="/">{menu.title}</Link>
-                <ul className={`submenu ${isHovered ? 'active' : ''}`}>
+                <ul className="submenu" >
                   {menu.sub.map((sub, j) => <li key={j}><Link to="/">{sub}</Link></li>)}
                 </ul>
               </li>

@@ -3,6 +3,7 @@
   min-height: 100vh;
   position: relative;
 
+
   .main-swiper {
     width: 100%;
     height: 100vh;
@@ -28,7 +29,7 @@
         position: relative;
         z-index: 10;
         color: #fff;
-        text-align: right;
+        text-align: center;
         
         // 초기 상태: 아래에 있고 투명함
         opacity: 0;
@@ -37,10 +38,11 @@
 
         .title {
           font-size: 20px;
-          line-height: 1.2;
+          line-height: 1.5;
           font-weight: 300;
           white-space: pre-line; // \n 줄바꿈 적용
           margin-bottom: 20px;
+          letter-spacing: 4px;
         }
 
         .desc {
@@ -88,7 +90,7 @@
         height: 2px;
         background: #fff;
         opacity: 0.4;
-        margin: 10px 0 !important;
+        margin: 5px 0 !important;
         border-radius: 0;
 
         transform: scaleX(0.25);       // 기본은 짧게
@@ -271,7 +273,10 @@
     .room-content {
       position: relative;
       z-index: 2;
-
+      padding: 0 20px;
+      @media (max-width: 960px){
+        padding: 0;
+      }
       .main-display {
         display: flex;
         align-items: stretch;
@@ -684,7 +689,7 @@
         }
 
         .sub-list {
-          padding: 0 10px 30px 10px;
+          padding: 0 10px 30px 20px;
           flex-wrap: wrap; // 화면이 좁으면 줄바꿈
           justify-content: space-between;
           gap: 15px;

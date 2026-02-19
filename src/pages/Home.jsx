@@ -14,6 +14,9 @@ import './Home.scss';
 import img01 from '/images/nth3_main01.jpg';
 import img02 from '/images/nth3_main02.jpg';
 import img03 from '/images/nth3_main03.jpg';
+import img04 from '/images/nth3_main04.jpg';
+import img05 from '/images/nth3_main05.jpg';
+import img06 from '/images/nth3_main06.jpg';
 import mainimg from '/images/main-img2.jpg';
 
 const Home = () => {
@@ -29,19 +32,37 @@ const Home = () => {
       id: 1,
       img: img01,
       title: "HIDDEN DELIGHT\nDELIGHTFUL PRICE\nDELIGHTFUL STAY\nDELIGHTFUL EXPERIENCE",
-      desc: "편안한 휴식과 특별한 가치, 품격있는 서비스를 선사합니다."
+      desc: "'나인트리 바이 파르나스 서울 인사동'은 화려한 도심속에 살아 숨쉬는 우리의 멋과 일상의 여유가 가득한 인사동\n에 위치하여 한국 전통의 향취와 함께 편안한 휴식을 선사합니다."
     },
     {
       id: 2,
       img: img02,
-      title: "URBAN REFRESH\nYOUR BEST CHOICE",
-      desc: "도심 속에서 즐기는 완벽한 휴식의 순간."
+      title: "HIDDEN DELIGHT\nDELIGHTFUL PRICE\nDELIGHTFUL STAY\nDELIGHTFUL EXPERIENCE",
+      desc: "편안한 휴식과 여유, 특별한 경험을 선사합니다."
     },
     {
       id: 3,
       bg: img03,
-      title: "SPECIAL MOMENT\nWITH NINE TREE",
-      sub: "나인 트리 호텔에서만 느낄 수 있는 특별한 경험."
+      title: "HIDDEN DELIGHT\nDELIGHTFUL PRICE\nDELIGHTFUL STAY\nDELIGHTFUL EXPERIENCE",
+      sub: "편안한 휴식과 여유, 특별한 경험을 선사합니다."
+    },
+    {
+      id: 4,
+      bg: img04,
+      title: "HIDDEN DELIGHT\nDELIGHTFUL PRICE\nDELIGHTFUL STAY\nDELIGHTFUL EXPERIENCE",
+      sub: "편안한 휴식과 여유, 특별한 경험을 선사합니다."
+    },
+    {
+      id: 5,
+      bg: img05,
+      title: "HIDDEN DELIGHT\nDELIGHTFUL PRICE\nDELIGHTFUL STAY\nDELIGHTFUL EXPERIENCE",
+      sub: "편안한 휴식과 여유, 특별한 경험을 선사합니다."
+    },
+    {
+      id: 6,
+      bg: img06,
+      title: "HIDDEN DELIGHT\nDELIGHTFUL PRICE\nDELIGHTFUL STAY\nDELIGHTFUL EXPERIENCE",
+      sub: "편안한 휴식과 여유, 특별한 경험을 선사합니다."
     }
   ];
 

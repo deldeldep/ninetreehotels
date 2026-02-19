@@ -66,6 +66,13 @@ const Footer = () => {
             <div className="family-site">
               <select name="family" id="family-select">
                 <option value="">패밀리사이트</option>
+                <option value="1">나인트리 바이 파르나스 서울 명동Ⅰ</option>
+                <option value="2">나인트리 바이 파르나스 서울 명동Ⅱ</option>
+                <option value="3">나인트리 바이 파르나스 서울 인사동</option>
+                <option value="4">나인트리 바이 파르나스 서울 동대문</option>
+                <option value="5">나인트리 바이 파르나스 서울 판교</option>
+                <option value="6">나인트리 프리미어 로카우스 호텔 서울 용산</option>
+                <option value="7">파르나스 리워즈</option>
                 {/* 추가 옵션들... */}
               </select>
             </div>
