@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
-import './Home.scss';
+import './home.scss';
 
 import img01 from '/images/nth3_main01.jpg';
 import img02 from '/images/nth3_main02.jpg';
